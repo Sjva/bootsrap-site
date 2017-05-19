@@ -1,0 +1,350 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url(image/bg-body.png)no-repeat 50% 0 #0e0e0e;
+    font:12px/1.67 Arial, Helvetica, sans-serif;
+    padding: 40px 0;
+}
+
+/*header begin*/
+.navbar {
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 0;
+}
+.logo_min {
+    margin: -30px ;
+}
+#telephone{
+    background: url(image/phone.png) no-repeat 50px 0 ;
+    padding: 2px 10px 2px 140px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c0c0c0;
+    margin: 0 2px;
+    border-radius: 7px 7px 0 0;
+    border-color: white;
+    text-decoration: none;
+}
+.phone{
+    color: #c0c0c0;
+}
+.pull-right {
+    background: white;
+}
+div #telephone > span {
+    padding: 0 10px 0 0;
+}
+nav li a{
+    color: #808080;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2px 15px;
+}
+.navbar-default .navbar-nav > li > a {
+    padding: 2px 15px;
+    margin: 15px 5px ;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background: url(image/bg-li-current.png) repeat-x 0 0;
+    color: #ffffff;
+    border-radius: 4px;
+}
+/*header end*/
+
+ /*begin slider block*/
+@font-face {
+    font-family: Treb;
+    src: url(fonts/treb.ttf);
+}
+.slider-block {
+    height: 330px;
+    background: url(image/bg-fon-slider.png)no-repeat 0 0;
+    /*font-family: Treb;*/
+    line-height: 34px ;
+
+}
+.fs45{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:-5px 0 25px;
+    padding: 0 ;
+    letter-spacing: -1px;
+}
+
+#carousel{
+    padding:90px 30px 0 0;
+    color:#fff;
+    font-size: 29px;
+}
+.bg-slider{
+    background: url(image/bg-slider.png)no-repeat 0 0;
+    margin: 36px 1px 0 0;
+    padding: 48px 18px 0 18px;
+}
+#myCarousel{
+    margin: -10px 0 ;
+}
+.started{
+    background: url(image/bt-started.png)no-repeat 0 0;
+    font-size: 20px;
+    color: #b90016;
+    text-transform: uppercase;
+    padding: 15px 30px 11px 15px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+#slider-buttons{
+   margin: 0 0 250px 30px ;
+}
+/* end slider block*/
+
+/* BEGIN line-block */
+
+#line-block {
+    height: 120px;
+    background-color: #ededed;
+    padding: 30px 0 2px 50px;
+}
+#line-block h4{
+    color: #575757;
+}
+#line-block p{
+    color: #4f4f4f;
+}
+.blurbs h4 {
+    font-size: 15px;
+    color:#5f6161;
+
+}
+.blurbs:after {
+    content:" ";
+    display: table;
+    clear: both;
+}
+/* END line-block */
+
+/* BEGIN middle-block*/
+#middle-block {
+    height: 500px;
+    background-color: #ffffff;
+    padding: 30px 0 0 0;
+}
+#middle-block h2{
+    color: #575757;
+}
+#middle-block p{
+    color: #4f4f4f;
+}
+
+.button a{
+    font-weight: bold;
+    color: #6c6c6c;
+}
+.dropdown button {
+    font-weight: bold;
+    color: #6c6c6c;
+}
+/* END middle-block*/
+
+/* BEGIN text-block */
+#text-block {
+    height: 250px;
+    background-color: #ededed;
+    padding: 20px 0 0 0;
+    border-top-style: groove;
+}
+#text-block h4 {
+    padding:0 0 0 10px;
+    color:#585858;
+}
+#text-block p{
+   font-size: 12px;
+    color: #797979;
+}
+#text-fild  {
+    background-color: #ededed;
+    margin: 0 0 -10px 0;
+}
+#text-fild p {
+    margin: 0 0 23px 0;
+}
+
+#text-fild1 {
+    background-color: #ededed;
+}
+#text-fild1 p {
+    margin: 0 0 12px 0;
+}
+.bold-text {
+    font-weight: bold;
+    color: black;
+}
+#text-fild2 {
+    background-color: #ededed;
+}
+#text-fild2 p {
+    margin: 0 0 -10px 0;
+}
+.link-bold {
+    font-weight: bold;
+}
+/* END text-block*/
+
+/* begin footer*/
+#footer-block {
+    height:100px;
+    background-color: #ededed;
+    border-top-style: groove;
+    border-color: #ffffff ;
+    border-radius: 0 0 7px 7px;
+}
+#footer-icon li {
+   padding: 0 0  0 30px;
+    background-color: #ededed;
+}
+#text-footer, #text-footer1, #text-footer2{
+    background-color: #ededed;
+}
+#text-footer p {
+    margin: 12px 0 4px 0;
+
+}
+#text-footer1 div {
+    margin: 0 0 -20px 0;
+}
+#text-footer2 div  {
+    margin: 10px 0 5px 0;
+}
+/* END FOOTER*/
+
+@media (max-width: 1199px) and (min-width: 320px){
+    #myCarousel{
+        max-width: 100%;
+        height: auto;}
+    .bg-slider{
+        border-radius: 10px 10px 0 0;
+        margin: 73px 1px 0 0;
+        padding: 48px 18px 0 18px;}
+    #slider-buttons{
+        margin: 0 0 200px 30px ;}
+    #line-block {height: 140px; background: #ededed; }
+
+}
+
+@media (max-width: 992px) and (min-width: 320px){
+    #carousel {padding:20px; font-size: 22px;}
+    .f45{padding:20px; font-size: 25px;}
+    .f45{top:5px;}
+    .slider-block {height: 280px; background: #093184;}
+    .bg-slider {
+        background: none;
+        margin: 15px 1px 0 0;}
+    #myCarousel{
+        padding: 10px;}
+    #slider-buttons{
+        display: none;
+    }
+    #line-block {height: 180px; background: #ededed;}
+    #line-block img {
+        margin:0 -10px; }
+    #text-block  {height: 650px; background:  #ededed; }
+    #middle-block  {height: 1760px; background: #ffffff;
+    }
+    #footer-block  {height: 250px; background:  #ededed;
+    }
+}
+
+@media (max-width: 773px) and (min-width: 320px){
+    .slider-block {height: 700px; background: #093184;}
+    #myCarousel{
+        padding: 10px;
+        margin: -60px 0 ;}
+    #myCarousel{
+        max-width: 100%;
+        min-width: 50%;
+        height: auto;}
+    .bg-slider {
+        background: none; }
+    #slider-buttons{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px){
+    #telephone{
+        padding: 0 10px 3px 140px;
+        margin: 0 -30px;}
+    .phone{
+        color: #c0c0c0;}
+
+    .logo_min{
+        padding: 10px 0 0 0; }
+
+    nav li a{
+        text-align: center;
+        padding: 2px 15px;}
+    #line-block {height: 290px; background: #ededed;}
+    #line-block img {
+        padding:0 0 0 50px;}
+
+}
+
+@media (max-width: 600px) and (min-width: 320px){
+    #text-block  {height: 750px; background:  #ededed;
+    }
+    #middle-block  {height: 1530px; background: #ffffff;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 320px){
+    .slider-block {height:550px; background: #093184; }
+    #myCarousel{
+        padding: 10px;
+        margin: -60px 0;}
+    .navbar-toggle {
+        margin: 10px -24px 0 0;  }
+}
+
+@media (max-width: 460px) and (min-width: 320px){
+    #line-block {height: 380px; background: #ededed;}
+    #line-block img {
+        margin:0 -100px; }
+}
+
+@media (max-width: 420px) and (min-width: 320px){
+    #middle-block  {height: 1380px; background: #ffffff;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 320px){
+    .slider-block {height:460px; background: #093184; }
+    body{
+        padding: 15px 0 0 0;
+    }
+    #text-fild {
+        background-color: #ededed;
+        margin: 0 0 15px 0;}
+}
+
+
+
+
